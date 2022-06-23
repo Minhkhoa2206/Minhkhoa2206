@@ -1,0 +1,16 @@
+<head>
+<span style="font-size: 40px">
+<span style="font-family: Serift">
+<span style="text-align: center">
+<span style="color: Blue">
+VIỆT NAM,
+<script language="javascript" type="text/javascript"> 
+dayName = new Array ("CHỦ NHẬT","THỨ HAI","THỨ BA","THỨ TƯ","THỨ NĂM","THỨ SÁU","THỨ BẢY") 
+monName = new Array ("1","2","3","4","5","6","7","8","9","10","11","12") 
+now = new Date 
+document.write("<b>" +dayName[now.getDay()]+ ", " +now.getDate()+ "/" +monName[now.getMonth()]+ "/" +now.getFullYear()+ "</b>") 
+</script>
+</head>
+</span>
+
+          echo test, and deploy your project.
